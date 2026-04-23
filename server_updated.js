@@ -341,7 +341,104 @@ const SHOE_DB = [
 
   // Topo Athletic
   { brand: "Topo Athletic", model: "Ultrafly 5", max_km: 700, type: "일반형", keywords: ["ultrafly 5", "토포 울트라플라이"] },
-  { brand: "Topo Athletic", model: "MT-5", max_km: 600, type: "트레일", keywords: ["mt-5", "토포 mt5"] }
+  { brand: "Topo Athletic", model: "MT-5", max_km: 600, type: "트레일", keywords: ["mt-5", "토포 mt5"] },
+
+  // Nike 추가
+  { brand: "Nike", model: "Free Run 5.0", max_km: 500, type: "경량형", keywords: ["free run 5", "free run5", "프리런 5"] },
+  { brand: "Nike", model: "React Miler 3", max_km: 600, type: "일반형", keywords: ["react miler 3", "리액트 마일러 3"] },
+  { brand: "Nike", model: "Zoom Tempo NEXT%", max_km: 400, type: "카본 레이싱", keywords: ["zoom tempo", "줌 템포", "tempo next"] },
+  { brand: "Nike", model: "Air Zoom Terra Kiger 8", max_km: 600, type: "트레일", keywords: ["terra kiger 8", "kiger 8", "테라카이거 8"] },
+  { brand: "Nike", model: "Zegama 2", max_km: 700, type: "트레일", keywords: ["zegama 2", "제가마 2"] },
+
+  // ASICS 추가
+  { brand: "ASICS", model: "Gel-Excite 10", max_km: 500, type: "일반형", keywords: ["gel-excite 10", "excite 10", "엑사이트 10"] },
+  { brand: "ASICS", model: "Gel-Kayano 33", max_km: 700, type: "안정화", keywords: ["gel-kayano 33", "kayano 33", "카야노 33"] },
+  { brand: "ASICS", model: "Gel-Nimbus Lite 4", max_km: 700, type: "경량형", keywords: ["nimbus lite 4", "님버스 라이트 4"] },
+  { brand: "ASICS", model: "Gel-Pulse 16", max_km: 600, type: "일반형", keywords: ["gel-pulse 16", "pulse 16", "펄스 16"] },
+
+  // Brooks 추가
+  { brand: "Brooks", model: "Trace 3", max_km: 600, type: "일반형", keywords: ["trace 3", "브룩스 트레이스 3"] },
+  { brand: "Brooks", model: "Revel 6", max_km: 600, type: "경량형", keywords: ["revel 6", "레벨 6"] },
+  { brand: "Brooks", model: "Caldera 7", max_km: 600, type: "트레일", keywords: ["caldera 7", "칼데라 7"] },
+  { brand: "Brooks", model: "Divide 4", max_km: 600, type: "트레일", keywords: ["divide 4", "디바이드 4"] },
+
+  // Hoka 추가
+  { brand: "Hoka", model: "Rincon 4", max_km: 600, type: "경량형", keywords: ["rincon 4", "링콘 4"] },
+  { brand: "Hoka", model: "Gaviota 5", max_km: 700, type: "안정화", keywords: ["gaviota 5", "가비오타 5"] },
+  { brand: "Hoka", model: "Stinson 7", max_km: 700, type: "트레일", keywords: ["stinson 7", "스틴슨 7"] },
+  { brand: "Hoka", model: "Torrent 3", max_km: 600, type: "트레일", keywords: ["torrent 3", "토렌트 3"] },
+  { brand: "Hoka", model: "EVO Speedgoat", max_km: 500, type: "트레일", keywords: ["evo speedgoat", "에보 스피드고트"] },
+
+  // New Balance 추가
+  { brand: "New Balance", model: "FuelCell Propel v4", max_km: 600, type: "경량형", keywords: ["fuelcell propel v4", "propel v4", "퓨얼셀 프로펠"] },
+  { brand: "New Balance", model: "Fresh Foam X 840 v2", max_km: 600, type: "일반형", keywords: ["840 v2", "프레시폼 840"] },
+  { brand: "New Balance", model: "Trail 410 v8", max_km: 600, type: "트레일", keywords: ["trail 410 v8", "410 v8", "트레일 410"] },
+
+  // Saucony 추가
+  { brand: "Saucony", model: "Kinvara Pro", max_km: 400, type: "카본 레이싱", keywords: ["kinvara pro", "킨바라 프로"] },
+  { brand: "Saucony", model: "Peregrine 15", max_km: 700, type: "트레일", keywords: ["peregrine 15", "페레그린 15"] },
+  { brand: "Saucony", model: "Xodus Ultra 2", max_km: 700, type: "트레일", keywords: ["xodus ultra 2", "엑소더스 울트라 2"] },
+
+  // On Running 추가
+  { brand: "On", model: "Cloud 5", max_km: 600, type: "일반형", keywords: ["cloud 5", "클라우드 5"] },
+  { brand: "On", model: "Cloudswift 3", max_km: 600, type: "일반형", keywords: ["cloudswift 3", "클라우드스위프트 3"] },
+  { brand: "On", model: "Cloudrunner 2", max_km: 650, type: "안정화", keywords: ["cloudrunner 2", "클라우드러너 2"] },
+  { brand: "On", model: "Cloudgo", max_km: 600, type: "일반형", keywords: ["cloudgo", "클라우드고"] },
+
+  // Adidas 추가
+  { brand: "Adidas", model: "Adizero SL 2", max_km: 600, type: "경량형", keywords: ["adizero sl 2", "아디제로 sl2"] },
+  { brand: "Adidas", model: "Duramo SL", max_km: 500, type: "일반형", keywords: ["duramo sl", "두라모 sl"] },
+  { brand: "Adidas", model: "Supernova Solution", max_km: 600, type: "안정화", keywords: ["supernova solution", "수퍼노바 솔루션"] },
+
+  // Mizuno 추가
+  { brand: "Mizuno", model: "Wave Horizon 7", max_km: 750, type: "안정화", keywords: ["wave horizon 7", "웨이브호라이즌 7"] },
+  { brand: "Mizuno", model: "Wave Prodigy 5", max_km: 600, type: "일반형", keywords: ["wave prodigy 5", "웨이브프로디지 5"] },
+  { brand: "Mizuno", model: "Wave Daichi 7", max_km: 600, type: "트레일", keywords: ["wave daichi 7", "웨이브다이치 7"] },
+
+  // Salomon 추가
+  { brand: "Salomon", model: "S/LAB Ultra 3", max_km: 700, type: "트레일", keywords: ["s/lab ultra 3", "slab ultra 3", "살로몬 울트라"] },
+  { brand: "Salomon", model: "Thundercross", max_km: 600, type: "트레일", keywords: ["thundercross", "썬더크로스"] },
+
+  // Karhu
+  { brand: "Karhu", model: "Fusion 4.5", max_km: 700, type: "일반형", keywords: ["karhu fusion", "카르후 퓨전", "fusion 4.5"] },
+  { brand: "Karhu", model: "Ikoni 3 Evo", max_km: 600, type: "경량형", keywords: ["ikoni 3 evo", "이코니 3", "karhu ikoni"] },
+
+  // Scott
+  { brand: "Scott", model: "Speed Carbon RC", max_km: 400, type: "카본 레이싱", keywords: ["scott speed carbon", "스캇 스피드 카본"] },
+  { brand: "Scott", model: "Kinabalu RC 3", max_km: 500, type: "트레일", keywords: ["kinabalu rc 3", "키나발루 rc3"] },
+  { brand: "Scott", model: "Supertrac RC 3", max_km: 600, type: "트레일", keywords: ["supertrac rc 3", "수퍼트랙 rc3"] },
+
+  // Inov-8
+  { brand: "Inov-8", model: "Trailfly Ultra G 300 Max", max_km: 700, type: "트레일", keywords: ["trailfly ultra g 300", "이노브8 트레일플라이", "inov8"] },
+  { brand: "Inov-8", model: "Mudclaw G 260 v2", max_km: 500, type: "트레일", keywords: ["mudclaw g 260", "머드클로우"] },
+
+  // La Sportiva
+  { brand: "La Sportiva", model: "Jackal II", max_km: 600, type: "트레일", keywords: ["jackal ii", "자칼 2", "la sportiva jackal"] },
+  { brand: "La Sportiva", model: "Mutant", max_km: 600, type: "트레일", keywords: ["mutant", "뮤턴트", "la sportiva mutant"] },
+  { brand: "La Sportiva", model: "Prodigio", max_km: 700, type: "일반형", keywords: ["prodigio", "프로디지오", "la sportiva"] },
+
+  // Merrell
+  { brand: "Merrell", model: "Agility Peak 5", max_km: 600, type: "트레일", keywords: ["agility peak 5", "어질리티 피크 5", "merrell"] },
+  { brand: "Merrell", model: "Trail Glove 7", max_km: 500, type: "트레일", keywords: ["trail glove 7", "트레일 글로브 7"] },
+
+  // Norda
+  { brand: "Norda", model: "001", max_km: 700, type: "트레일", keywords: ["norda 001", "노르다 001"] },
+  { brand: "Norda", model: "002", max_km: 600, type: "트레일", keywords: ["norda 002", "노르다 002"] },
+
+  // Veja
+  { brand: "Veja", model: "Condor 3", max_km: 600, type: "일반형", keywords: ["veja condor 3", "베자 콩도르 3", "condor 3"] },
+
+  // Lululemon
+  { brand: "Lululemon", model: "Blissfeel 2", max_km: 600, type: "일반형", keywords: ["blissfeel 2", "블리스필 2", "lululemon"] },
+  { brand: "Lululemon", model: "Beyondfeel", max_km: 600, type: "일반형", keywords: ["beyondfeel", "비욘드필"] },
+
+  // Reebok
+  { brand: "Reebok", model: "Floatride Energy 5", max_km: 600, type: "일반형", keywords: ["floatride energy 5", "플로트라이드 에너지 5", "reebok"] },
+  { brand: "Reebok", model: "Forever Floatride Grow", max_km: 500, type: "경량형", keywords: ["forever floatride", "포에버 플로트라이드"] },
+
+  // 361°
+  { brand: "361°", model: "Flame 5", max_km: 600, type: "일반형", keywords: ["flame 5", "플레임 5", "361"] },
+  { brand: "361°", model: "Spire 6", max_km: 650, type: "일반형", keywords: ["spire 6", "스파이어 6", "361 spire"] }
 ];
 
 app.get('/api/shoes/search', (req, res) => {
